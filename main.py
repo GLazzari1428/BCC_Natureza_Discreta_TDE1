@@ -44,9 +44,9 @@ while j < num_lines - 1:
         print(f'Interseção: conjunto 1 {a}, conjunto 2 {b}. Resultado: {inter(a,b)}')
 
     elif op[0] == 'D':
-        print(f'Diferença: conjuto 1 {a}, conjunto 2 {b}. Resultado: {dif(a,b)}')
+        print(f'Diferença: conjunto 1 {a}, conjunto 2 {b}. Resultado: {dif(a,b)}')
 
     elif op[0] == 'C':
-        print(f'Produto cartesiano: conjuto 1 {a}, conjunto 2 {b}. Resultado: {cart(a,b)}')
+        print(f'Produto cartesiano: conjunto 1 {a}, conjunto 2 {b}. Resultado: {cart(a,b)}')
 
     j += 3  #itera pulando para as prox 3 linhas
